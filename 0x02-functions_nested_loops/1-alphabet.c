@@ -3,23 +3,20 @@
 #include <stdio.h>
 
 /**
-* print_alphabet - Prints the lowercase alphabet
-*/
+ * print_alphabet - Entry point
+ * Return:0
+ */
+
 void print_alphabet(void)
 {
-    char c = 'a';
+	char c = 'a';
 
-    while (c <= 'z')
-    {
-        putchar(c);
-        c++;
-    }
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
 
-    putchar('\n');
-}
+	}
+	_putchar('\n');
 
-int main()
-{
-    print_alphabet();
-    return 0;
 }
